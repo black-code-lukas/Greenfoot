@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Rabbit
+comment0.text=\r\n\ Ein\ Hase\ in\ einer\ R\u00E4uber-Beute-Simulation.\ Hasen\ h\u00FCpfen\ herum\ und\ geb\u00E4ren\ Nachwuchs.\r\n\ \r\n\ @author\ Michael\ K\u00F6lling\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=Rabbit()
+comment1.text=\r\n\ Standardkonstruktor\ zum\ Testen.\r\n
+comment2.params=randomAge
+comment2.target=Rabbit(boolean)
+comment2.text=\r\n\ Erzeugt\ einen\ neuen\ Hasen.\ Ein\ neuer\ Hase\ kann\ das\ Alter\ 0\ \r\n\ (neu\ geboren)\ oder\ ein\ zuf\u00E4lliges\ Alter\ haben.\r\n\ \r\n\ @param\ randomAge\ wenn\ true,\ erh\u00E4lt\ der\ Hase\ ein\ zuf\u00E4lliges\ Alter.\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Das\ ist,\ was\ ein\ Hase\ die\ meiste\ Zeit\ tut\ -\ er\ l\u00E4uft\ herum.\r\n\ Manchmal\ geb\u00E4rt\ er\ Nachwuchs\ und\ irgendwann\ stirbt\ er\r\n\ an\ Altersschw\u00E4che.\r\n
+comment4.params=
+comment4.target=void\ incrementAge()
+comment4.text=\r\n\ Erh\u00F6ht\ das\ Alter.\ \r\n\ Dies\ kann\ zum\ Tod\ des\ Hasen\ f\u00FChren\ (durch\ Altersschw\u00E4che).\r\n
+comment5.params=
+comment5.target=int\ breed()
+comment5.text=\r\n\ Erzeugt\ eine\ Zahl\ f\u00FCr\ die\ Wurfgroesse,\ wenn\ der\ Hase\r\n\ geb\u00E4ren\ kann.\r\n\ @return\ \ Wurfgroesse\ (kann\ null\ sein).\r\n
+comment6.params=
+comment6.target=boolean\ canBreed()
+comment6.text=\r\n\ Ein\ Hase\ kann\ geb\u00E4ren,\ wenn\ er\ das\ geb\u00E4rf\u00E4hige\ Alter\ erreicht\ hat.\r\n
+numComments=7

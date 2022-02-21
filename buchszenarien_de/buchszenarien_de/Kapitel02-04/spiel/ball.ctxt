@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=ball
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ ball\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=ball()
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ ball\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=a
+comment3.target=void\ newTurn(double)
+comment4.params=
+comment4.target=void\ goals()
+comment5.params=
+comment5.target=void\ hitKangaroo()
+comment6.params=
+comment6.target=void\ hitwombat()
+comment7.params=
+comment7.target=void\ turnatEdge()
+numComments=8

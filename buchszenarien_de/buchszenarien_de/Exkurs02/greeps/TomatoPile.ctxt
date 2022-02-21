@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=TomatoPile
+comment0.text=\r\n\ Ein\ Tomatenhaufen.\r\n\ \r\n\ @author\ Michael\ K\u00F6lling\r\n\ @version\ 1.0.2\r\n
+comment1.params=tomatoes
+comment1.target=TomatoPile(int)
+comment1.text=\r\n\ Erzeugt\ einen\ Tomatenhaufen\ mit\ der\ angegebenen\ Zahl\ Tomaten.\r\n
+comment2.params=
+comment2.target=void\ takeOne()
+comment2.text=\r\n\ Entfernt\ eine\ Tomate\ aus\ dem\ Haufen.\ (War\ es\ die\ letzte\ Tomate,\ verschwindet\r\n\ der\ Haufen\ aus\ der\ Welt.)\r\n
+comment3.params=
+comment3.target=void\ updateImage()
+comment3.text=\r\n\ Aktualisiert\ das\ Bild,\ um\ die\ aktuelle\ Zahl\ Tomaten\ anzuzeigen.\r\n
+comment4.params=image\ x\ y
+comment4.target=void\ drawTomato(greenfoot.GreenfootImage,\ int,\ int)
+comment4.text=\r\n\ Zeichnet\ an\ der\ angegebenen\ Position\ eine\ einzelne\ Tomate\ in\ das\ \u00FCbergebene\ Bild\ ein.\ \r\n
+comment5.params=
+comment5.target=int\ randomCoord()
+comment5.text=\r\n\ Erzeugt\ eine\ von\ der\ Gr\u00F6\u00DFe\ des\ Futterhaufens\ abh\u00E4ngige\ Zufallszahl\ zur\u00FCck.\r\n
+numComments=6

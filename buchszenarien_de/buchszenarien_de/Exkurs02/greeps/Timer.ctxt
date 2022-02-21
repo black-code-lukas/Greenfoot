@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Timer
+comment0.text=\r\n\ Ein\ Zeitgeber\ ist\ ein\ Z\u00E4hlwerk,\ das\ automatisch\ hochz\u00E4hlt,\ w\u00E4hrend\ die\ Zeit\ vergeht.\r\n\ Dieser\ Zeitgeber\ pr\u00FCft\ auch,\ ob\ das\ Karten-Level\ beendet\ wurde\ (entweder\ weil\ die\ Spielzeit\ abgelaufen\ ist\ oder\r\n\ weil\ es\ keine\ Tomaten\ mehr\ gibt).\r\n\ \r\n\ @author\ M\ K\u00F6lling\r\n\ @version\ 1.0.1\r\n
+comment1.params=
+comment1.target=Timer()
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Z\u00E4hlt\ die\ Zeit.\ Informiert\ dar\u00FCber,\ dass\ das\ Spiel\ beendet\ ist,\ wenn\ die\ Spielzeit\ abgelaufen\ ist.\r\n
+comment3.params=
+comment3.target=void\ checkFinish()
+comment3.text=\r\n\ Pr\u00FCft,\ ob\ dieses\ Karten-Level\ beendet\ ist.\ Dies\ ist\ der\ Fall,\ wenn\ die\ Spielzeit\ abgelaufen\ ist\ oder\ \r\n\ keine\ Tomaten\ mehr\ da\ sind.\r\n
+comment4.params=
+comment4.target=boolean\ timeOut()
+comment4.text=\r\n\ Liefert\ "true"\ zur\u00FCck,\ wenn\ die\ Spielzeit\ abgelaufen\ ist.\r\n
+comment5.params=
+comment5.target=boolean\ allTomatoesGone()
+comment5.text=\r\n\ Liefert\ true\ zur\u00FCck,\ wenn\ es\ auf\ diesem\ Level\ keine\ Tomaten\ mehr\ gibt.\r\n
+comment6.params=
+comment6.target=void\ gameOver()
+comment6.text=\r\n\ Informiert\ dar\u00FCber,\ dass\ das\ Level\ beendet\ ist.\r\n
+numComments=7

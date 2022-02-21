@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Greep
+comment0.text=\r\n\ Ein\ Greep\ ist\ eine\ au\u00DFerirdische\ Kreatur,\ die\ gerne\ Tomaten\ einsammelt.\r\n\ \r\n\ @author\ (hierhin\ kommt\ dein\ Name)\r\n\ @version\ 0.1\r\n
+comment1.params=
+comment1.target=Greep()
+comment1.text=\r\n\ Standardkonstruktor\ f\u00FCr\ Testzwecke.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Tut,\ was\ Greeps\ so\ zu\ tun\ haben.\r\n
+comment3.params=
+comment3.target=void\ checkFood()
+comment3.text=\r\n\ Gibt\ es\ irgendwelches\ Futter\ hier,\ wo\ wir\ uns\ befinden?\ Wenn\ ja,\ versuche\ welches\ aufzunehmen\!\r\n
+comment4.params=
+comment4.target=java.lang.String\ getAuthorName()
+comment4.text=\r\n\ Diese\ Methode\ liefert\ den\ Namen\ des\ Autors\ zur\u00FCck\ (f\u00FCr\ die\ Punktestandsanzeige).\r\n
+comment5.params=
+comment5.target=java.lang.String\ getCurrentImage()
+comment5.text=\r\n\ Diese\ Methode\ liefert\ das\ Bild,\ das\ f\u00FCr\ den\ Greep\ angezeigt\ wird.\ (Muss\ f\u00FCr\ den\ Wettstreit\ nicht\ \r\n\ ge\u00E4ndert\ werden.)\r\n
+numComments=6

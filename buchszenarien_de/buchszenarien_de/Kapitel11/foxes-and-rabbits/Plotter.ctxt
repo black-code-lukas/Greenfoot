@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Plotter
+comment0.text=\r\n\ Plotter\ ist\ ein\ Akteur,\ der\ den\ Graphen\ einer\ Population\ aus\ zwei\ Greenfoot-Actor-Klassen\ zeichnet.\r\n\ \u00DCblicherweise\ wird\ nur\ ein\ einzelner\ Akteur\ aus\ dieser\ Klasse\ erzeugt.\r\n\ \r\n\ @author\ M\ K\u00F6lling\r\n\ @version\ 1.0\r\n
+comment1.params=width\ height\ startMax\ world\ class1\ class2
+comment1.target=Plotter(int,\ int,\ int,\ greenfoot.World,\ java.lang.Class,\ java.lang.Class)
+comment1.text=\r\n\ Konstruktor.\r\n\ \r\n\ @param\ width\ die\ Breite\ des\ Plotter-Fensters\ (in\ Pixeln).\r\n\ @param\ height\ die\ Breite\ des\ Plotter-Fensters\ (in\ Pixeln).\r\n\ @param\ startMax\ der\ anf\u00E4ngliche\ Maximalwert\ f\u00FCr\ die\ y-Achse.\r\n\ @param\ world\ das\ Weltobjekt.\r\n\ @param\ class1\ die\ erste\ zu\ zeichnende\ Klasse.\r\n\ @param\ width\ die\ zweite\ zu\ zeichnende\ Klasse.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Aktualisiert\ den\ Plotter-Graphen.\r\n
+comment3.params=
+comment3.target=void\ updateGraph()
+comment3.text=\r\n\ Aktualisiert\ den\ Graphen\ in\ unserem\ Fenster,\ ber\u00FCcksichtigt\ die\ beiden\ \u00FCberwachten\ Klassen.\r\n\ Beendet\ die\ Simulation,\ wenn\ eine\ auf\ null\ abf\u00E4llt.\r\n
+comment4.params=width\ height\ startMax
+comment4.target=javax.swing.JFrame\ makeFrame(int,\ int,\ int)
+comment4.text=\r\n\ Bereitet\ den\ Rahmen\ f\u00FCr\ den\ Graphen\ vor.\r\n
+numComments=5

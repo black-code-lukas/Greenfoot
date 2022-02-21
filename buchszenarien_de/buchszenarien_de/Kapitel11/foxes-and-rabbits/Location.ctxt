@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Location
+comment0.text=\r\n\ Repr\u00E4sentiert\ eine\ Position\ in\ einem\ rechteckigen\ Feld.\r\n\ \r\n\ @author\ mik\r\n\ @version\ 1.0\r\n
+comment1.params=x\ y
+comment1.target=Location(int,\ int)
+comment1.text=\r\n\ Repr\u00E4sentiert\ eine\ Koordinate.\r\n\ @param\ x\ die\ horizontale\ Koordinate.\r\n\ @param\ y\ die\ vertikale\ Koordinate.\r\n
+comment2.params=obj
+comment2.target=boolean\ equals(java.lang.Object)
+comment2.text=\r\n\ Pr\u00FCfung\ auf\ Inhaltsgleichheit.\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ Liefert\ einen\ String\ in\ der\ Form\ 'x,y'\ zur\u00FCck.\r\n\ @return\ eine\ Stringdarstellung\ dieser\ Position.\r\n
+comment4.params=
+comment4.target=int\ hashCode()
+comment4.text=\r\n\ Benutzt\ die\ 16\ h\u00F6herwertigen\ Bits\ f\u00FCr\ den\ den\ x-Wert\r\n\ und\ die\ 16\ niederwertigen\ Bits\ f\u00FCr\ den\ y-Wert.\r\n\ Au\u00DFer\ f\u00FCr\ sehr\ gro\u00DFe\ Felder\ sollte\ dies\ einen\ eindeutigen\r\n\ Hashwert\ f\u00FCr\ jedes\ (x,y)-Paar\ geben.\r\n\ @return\ einen\ Hash-Code\ f\u00FCr\ diese\ Position.\r\n
+comment5.params=
+comment5.target=int\ getX()
+comment5.text=\r\n\ @return\ den\ x-Wert.\r\n
+comment6.params=
+comment6.target=int\ getY()
+comment6.text=\r\n\ @return\ den\ y-Wert.\r\n
+numComments=7

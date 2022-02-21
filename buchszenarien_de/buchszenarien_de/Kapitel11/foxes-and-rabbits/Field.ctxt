@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Field
+comment0.text=\r\n\ Die\ Welt\ f\u00FCr\ die\ F\u00FCchse\ und\ Hasen\ (und\ andere\ Tiere,\ falls\ du\ solche\ kreieren\ m\u00F6chtest).\r\n\ \r\n\ @author\ Michael\ K\u00F6lling\r\n\ @version\ 1.1\r\n
+comment1.params=
+comment1.target=Field()
+comment1.text=\r\n\ Erzeugt\ ein\ Simulationsfeld\ und\ bev\u00F6lkert\ es\ mit\ F\u00FCchsen\ und\ Hasen.\r\n
+comment2.params=
+comment2.target=void\ populate()
+comment2.text=\r\n\ Bev\u00F6lkert\ das\ Feld\ mit\ F\u00FCchsen\ und\ Hasen.\r\n
+numComments=3

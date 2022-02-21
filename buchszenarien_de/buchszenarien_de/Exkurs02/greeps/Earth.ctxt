@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Earth
+comment0.text=\r\n\ Dies\ ist\ die\ Erde.\ Oder\ zumindest\ irgendein\ entfernter,\ nicht\ bewohnter\ Teil\ der\ Erde.\r\n\ Hier\ k\u00F6nnen\ Greeps\ landen\ und\ nach\ Tomatenhaufen\ Ausschau\ halten\ ...\r\n\ \r\n\ @author\ Michael\ K\u00F6lling\r\n\ @version\ 1.0.1\r\n
+comment1.params=
+comment1.target=Earth()
+comment1.text=\r\n\ Erzeugt\ eine\ neue\ Welt.\ \r\n
+comment2.params=x\ y
+comment2.target=boolean\ isWater(int,\ int)
+comment2.text=\r\n\ Liefert\ "true",\ wenn\ an\ der\ angegebenen\ Koordinate\ Wasser\ ist.\r\n\ (Wasser\ ist\ durch\ eine\ Farbe\ mit\ dominierendem\ Blauton\ gekennzeichnet.)\r\n
+comment3.params=map
+comment3.target=void\ jumpToMap(int)
+comment3.text=\r\n\ Springt\ zu\ der\ angegebenen\ Kartennummer\ (1..n).\r\n
+comment4.params=mapNo
+comment4.target=void\ showMap(int)
+comment4.text=\r\n\ Richtet\ die\ Startszenerie\ ein.\r\n
+comment5.params=time
+comment5.target=void\ mapFinished(int)
+comment5.text=\r\n\ Das\ Spiel\ ist\ vorbei.\ Stoppen\ und\ Punktestand\ anzeigen.\r\n
+comment6.params=time
+comment6.target=void\ displayScore(int)
+comment7.params=
+comment7.target=void\ displayFinalScore()
+comment8.params=
+comment8.target=void\ clearWorld()
+numComments=9

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Mover
+comment0.text=\r\n\ Ein\ Gegenstand,\ der\ sich\ mit\ einer\ bestimmten\ Geschwindigkeit\ bewegen\ kann.\ \r\n\ Der\ Gegenstand\ verwaltet\ einen\ Bewegungsvektor\ mit\ der\ aktuellen\ Bewegung.\r\n\ \r\n\ @author\ Poul\ Henriksen\r\n\ @author\ Michael\ K\u00F6lling\r\n\ \r\n\ @version\ 2.0\r\n
+comment1.params=
+comment1.target=Mover()
+comment2.params=
+comment2.target=void\ move()
+comment2.text=\r\n\ R\u00FCckt\ einen\ Schritt\ vorw\u00E4rts.\ Richtung\ und\ Geschwindigkeit\ werden\ durch\ \r\n\ den\ internen\ Bewegungsvektor\ festgelegt.\ Bewegung\ setzt\ sich\ an\ den\ Weltr\u00E4ndern\ fort.\r\n
+comment3.params=x\ y
+comment3.target=void\ setLocation(double,\ double)
+comment4.params=x\ y
+comment4.target=void\ setLocation(int,\ int)
+numComments=5

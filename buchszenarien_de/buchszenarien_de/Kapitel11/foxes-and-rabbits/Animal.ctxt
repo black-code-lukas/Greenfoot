@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Animal
+comment0.text=\r\n\ Die\ Klasse\ Animal\ dient\ als\ Oberklasse\ zu\ allen\ Tieren\ in\ dieser\ R\u00E4uber-Beute-Simulation.\r\n\ \r\n\ @author\ Michael\ K\u00F6lling\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=Animal()
+comment1.text=\r\n\ Erzeugt\ ein\ neues\ Tier\ mit\ dem\ Alter\ 0\ (Neugeborenes).\r\n
+comment2.params=
+comment2.target=boolean\ isAlive()
+comment2.text=\r\n\ Pr\u00FCft,\ ob\ dieses\ Tier\ noch\ lebendig\ ist.\r\n\ @return\ True\ wenn\ dieses\ Tier\ noch\ lebendig\ ist.\r\n
+comment3.params=
+comment3.target=void\ setDead()
+comment3.text=\r\n\ Teilt\ dem\ Tier\ mit,\ dass\ es\ tot\ ist\ \:(\r\n
+comment4.params=
+comment4.target=int\ getAge()
+comment4.text=\r\n\ Liefert\ das\ Alter\ des\ Tiers\ zur\u00FCck.\r\n\ @return\ das\ Alter\ des\ Tiers.\r\n
+comment5.params=age
+comment5.target=void\ setAge(int)
+comment5.text=\r\n\ Setzt\ das\ Alter\ des\ Tiers\ zur\u00FCck.\r\n\ @param\ age\ das\ Alter\ des\ Tiers.\r\n
+numComments=6

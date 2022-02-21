@@ -1,0 +1,34 @@
+#BlueJ class context
+comment0.target=SmoothMover
+comment0.text=\r\n\ Variation\ eine\ Actor-Objekts,\ das\ die\ genaue\ Position\ speichert\ (unter\ Verwendung\ \r\n\ von\ double-Werten\ statt\ int-Werten\ f\u00FCr\ die\ Koordinaten).\ Au\u00DFerdem\ speichert\ es\ \r\n\ eine\ aktuelle\ Bewegung\ in\ Form\ eines\ Bewegungsvektors.\r\n\ \r\n\ @author\ Poul\ Henriksen\r\n\ @author\ Michael\ K\u00F6lling\r\n\ \ \ (einschlie\u00DFlich\ Verbesserungen,\ die\ von\ J.\ Buhl\ vorgeschlagen\ wurden)\r\n\ \ \ \ \ \ \r\n\ @version\ 2.2\r\n
+comment1.params=
+comment1.target=SmoothMover()
+comment1.text=\r\n\ Standardkonstruktor.\r\n
+comment10.params=
+comment10.target=void\ invertVerticalVelocity()
+comment10.text=\r\n\ Kehrt\ die\ Geschwindigkeit\ vertikal\ um.\r\n
+comment2.params=
+comment2.target=void\ move()
+comment2.text=\r\n\ Bewegt\ sich\ in\ die\ Richtung\ des\ Bewegungsvektors.\ Dies\ simuliert\ Bewegung\r\n\ in\ einer\ Zeiteinheit\ (dt\=\=1).\r\n
+comment3.params=x\ y
+comment3.target=void\ setLocation(double,\ double)
+comment3.text=\r\n\ Setzt\ die\ Position\ mittels\ exakter\ Koordinaten\ (vom\ Typ\ double).\r\n
+comment4.params=x\ y
+comment4.target=void\ setLocation(int,\ int)
+comment4.text=\r\n\ Setzt\ die\ Position\ dieses\ Akteurs.\ Neudefinition\ der\ Standard-Greenfoot-Methode,\r\n\ um\ sicherzustellen,\ dass\ die\ exakten\ Koordinaten\ synchron\ aktualisiert\ werden.\r\n
+comment5.params=
+comment5.target=double\ getExactX()
+comment5.text=\r\n\ Liefert\ die\ exakte\ x-Koordinate\ zur\u00FCck\ (als\ Typ\ double).\r\n
+comment6.params=
+comment6.target=double\ getExactY()
+comment6.text=\r\n\ Liefert\ die\ exakte\ y-Koordinate\ zur\u00FCck\ (als\ Typ\ double).\r\n
+comment7.params=factor
+comment7.target=void\ accelerate(double)
+comment7.text=\r\n\ Erh\u00F6ht\ die\ Geschwindigkeit\ dieses\ SmoothMovers\ um\ den\ gegebenen\ Faktor.\ (Faktoren\ kleiner\r\n\ als\ 1\ verlangsamen\ die\ Geschwindigkeit.)\ Die\ Richtung\ bleibt\ unver\u00E4ndert.\r\n
+comment8.params=
+comment8.target=double\ getSpeed()
+comment8.text=\r\n\ Liefert\ die\ Geschwindigkeit\ dieses\ Akteurs\ zur\u00FCck.\r\n
+comment9.params=
+comment9.target=void\ invertHorizontalVelocity()
+comment9.text=\r\n\ Kehrt\ die\ Geschwindigkeit\ horizontal\ um.\r\n
+numComments=11

@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Fox
+comment0.text=\r\n\ Ein\ Fuchs\ in\ einer\ R\u00E4uber-Beute-Simulation.\ F\u00FCchse\ laufen\ umher,\ fressen\ Hasen,\ geb\u00E4ren\ Nachwuchs.\ Sie\ k\u00F6nnen\r\n\ verhungern,\ wenn\ sie\ l\u00E4ngere\ Zeit\ nicht\ fressen.\r\n\ \r\n\ @author\ Michael\ K\u00F6lling\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=Fox()
+comment1.text=\r\n\ Standardkonstruktor\ zum\ Testen.\r\n
+comment2.params=randomAge
+comment2.target=Fox(boolean)
+comment2.text=\r\n\ Erzeugt\ einen\ Fuchs.\ Ein\ Fuchs\ wird\ entweder\ neu\ geboren\r\n\ (Alter\ 0\ Jahre\ und\ nicht\ hungrig)\ oder\ mit\ einem\ zuf\u00E4lligen\ Alter\r\n\ @param\ randomAge\ wenn\ true,\ erh\u00E4lt\ der\ Fuchs\ ein\ zuf\u00E4lliges\ Alter\ und\ ein\ zuf\u00E4lliges\ Hungergef\u00FChl.\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Das\ ist,\ was\ ein\ Fuchs\ die\ meiste\ Zeit\ tut\:\ er\ jagt\ Hasen.\r\n\ Dabei\ kann\ er\ Nachwuchs\ geb\u00E4ren,\ vor\ Hunger\ sterben\ oder\r\n\ an\ Altersschw\u00E4che.\r\n
+comment4.params=
+comment4.target=void\ incrementAge()
+comment4.text=\r\n\ Erh\u00F6ht\ das\ Alter.\ Dies\ kann\ zum\ Tod\ des\ Fuchses\ f\u00FChren.\r\n
+comment5.params=
+comment5.target=void\ incrementHunger()
+comment5.text=\r\n\ Vergr\u00F6\u00DFert\ den\ Hunger\ dieses\ Fuchses.\ Dies\ kann\ zu\ seinem\ Tode\ f\u00FChren.\r\n
+comment6.params=
+comment6.target=int\ breed()
+comment6.text=\r\n\ Erzeugt\ eine\ Zahl\ f\u00FCr\ die\ Wurfgroesse,\ wenn\ der\ Fuchs\r\n\ gebaeren\ kann.\r\n\ Return\ Wurfgroesse\ (kann\ null\ sein).\r\n
+comment7.params=
+comment7.target=boolean\ canBreed()
+comment7.text=\r\n\ Ein\ Fuchs\ kann\ geb\u00E4ren,\ wenn\ er\ das\ geb\u00E4rf\u00E4hige\ Alter\ erreicht\ hat.\r\n
+numComments=8

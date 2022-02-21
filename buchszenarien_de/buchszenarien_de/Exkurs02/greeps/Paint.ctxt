@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Paint
+comment0.text=\r\n\ Farbtropfen\ k\u00F6nnen\ auf\ dem\ Boden\ zur\u00FCckgelassen\ werden.\ Ungl\u00FCcklicherweise\ ist\ der\ Boden\ weich,\ weshalb\ \r\n\ die\ Farbe\ mit\ der\ Zeit\ versickert.\ Nach\ einer\ gewissen\ Zeit\ ist\ sie\ ganz\ verschwunden.\r\n\ \r\n\ @author\ Michael\ K\u00F6lling\r\n\ @version\ 1.0.2\r\n
+comment1.params=
+comment1.target=Paint()
+comment1.text=\r\n\ Erzeugt\ einen\ Farbklecks\ der\ vorgegebenen\ Standardfarbe.\r\n
+comment2.params=color
+comment2.target=Paint(java.lang.String)
+comment2.text=\r\n\ Erzeugt\ einen\ Farbklecks\ der\ angegebenen\ Farbe.\ G\u00FCltige\ Farbwerte\ sind\:\r\n\ "red",\ "orange"\ und\ "purple".\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Mit\ der\ Zeit\ verblasst\ die\ Farbe\ und\ verschwindet\ schlie\u00DFlich.\r\n
+comment4.params=
+comment4.target=java.lang.String\ getColor()
+comment4.text=\r\n\ Liefert\ den\ Farbnamen\ dieses\ Farbtropfens\ zur\u00FCck.\r\n
+comment5.params=
+comment5.target=void\ updateImage()
+comment5.text=\r\n\ Erstellt\ das\ Bild.\r\n
+numComments=6

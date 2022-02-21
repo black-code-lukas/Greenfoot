@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Counter
+comment0.text=\r\n\ Z\u00E4hler,\ der\ einen\ (optionalen)\ Text\ und\ eine\ Zahl\ anzeigt.\r\n\ \r\n\ @author\ Michael\ Kolling\r\n\ @version\ 1.0.1\r\n
+comment1.params=
+comment1.target=Counter()
+comment1.text=\r\n\ Erzeugt\ einen\ Z\u00E4hler\ ohne\ Text.\r\n
+comment2.params=prefix
+comment2.target=Counter(java.lang.String)
+comment2.text=\r\n\ Erzeugt\ einen\ auf\ 0\ gestellten\ Z\u00E4hler\ mit\ dem\ angegebenen\ Text.\r\n
+comment3.params=prefix\ value
+comment3.target=Counter(java.lang.String,\ int)
+comment3.text=\r\n\ Erzeugt\ einen\ Z\u00E4hler\ mit\ dem\ angegebenen\ Text\ und\ Wert.\r\n
+comment4.params=
+comment4.target=void\ increment()
+comment4.text=\r\n\ Inkrementiert\ den\ Z\u00E4hler\ um\ eins.\r\n
+comment5.params=
+comment5.target=int\ getValue()
+comment5.text=\r\n\ Liefert\ den\ aktuellen\ Z\u00E4hlerstand\ zur\u00FCck.\r\n
+comment6.params=
+comment6.target=void\ updateImage()
+comment6.text=\r\n\ Erstellt\ das\ Bild.\r\n
+numComments=7

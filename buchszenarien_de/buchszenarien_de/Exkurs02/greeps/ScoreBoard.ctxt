@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=ScoreBoard
+comment0.text=\r\n\ Die\ Klasse\ ScoreBoard\ zeigt\ die\ Ergebnisse\ auf\ dem\ Bildschirm\ an.\ Sie\ kann\ ein\ wenig\ Text\r\n\ und\ mehrere\ Zahlen\ anzeigen.\r\n\ \r\n\ @author\ M\ K\u00F6lling\r\n\ @version\ 1.0.1\r\n
+comment1.params=
+comment1.target=ScoreBoard()
+comment2.params=title\ text\ prefix\ map\ scores
+comment2.target=ScoreBoard(java.lang.String,\ java.lang.String,\ java.lang.String,\ int,\ int[])
+comment2.text=\r\n\ Erzeugt\ eine\ Punktestandsanzeige\ f\u00FCr\ ein\ Zwischenergebnis.\r\n
+comment3.params=title\ text\ prefix\ scores
+comment3.target=ScoreBoard(java.lang.String,\ java.lang.String,\ java.lang.String,\ int[])
+comment3.text=\r\n\ Erzeugt\ eine\ Punktestandsanzeige\ f\u00FCr\ das\ endg\u00FCltige\ Ergebnis.\r\n
+comment4.params=title\ text\ prefix\ score
+comment4.target=void\ makeImage(java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
+comment4.text=\r\n\ Erstellt\ das\ Bild\ f\u00FCr\ die\ Punktestandsanzeige.\r\n
+comment5.params=mapNo\ scores
+comment5.target=void\ addMapScores(int,\ int[])
+comment5.text=\r\n\ Trage\ die\ Punktest\u00E4nde\ f\u00FCr\ die\ einzelnen\ Karten\ in\ die\ Punktestandsanzeige\ ein.\r\n\ 'scores'\ ist\ ein\ Feld,\ in\ dem\ alle\ Punktest\u00E4nde\ gespeichert\ sind,\r\n\ 'mapNo'\ ist\ die\ Nummer\ der\ aktuellen\ Karte\ (Feldeintr\u00E4ge\ jenseits\ dieses\r\n\ Wertes\ sind\ nicht\ g\u00FCltig).\r\n
+comment6.params=name\ scores
+comment6.target=void\ printResultToTerminal(java.lang.String,\ int[])
+numComments=7
